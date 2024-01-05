@@ -28,14 +28,16 @@
 * 1.安装所需软件
 * 2.下载所需文件至本地
 * 3.构建服务端，建议构建DEV
-* 4.使用Hutao-GD编译HuTao-GS专用的Resources 或者直接下载编译过的文件放入HuTao-GS/data/3.8.50里
-* 5.将Proto放入HuTao-GS/data/proto/3.8.5
-* 6.运行服务端 (Dev使用START-DEV.bat启动)
-* 7.安装自动生成的证书
-* 8.设置代理（GC代理不适用于HuTao-GS）(两种代理凭自己爱好选，DNS不行就用Fiddler)
-* 9.开始游玩
+* 4.先运行服务端生成文件
+* 5.使用Hutao-GD编译HuTao-GS专用的Resources 或者直接下载编译过的文件放入HuTao-GS/data/3.8.50里
+* 6.将Proto放入HuTao-GS/data/proto/3.8.5
+* 7.从下载key解压到data/key里 https://www.123pan.com/s/xmC8Vv-Dcr3A.html
+* 8.运行服务端 (Dev使用START-DEV.bat启动)
+* 9.从SSL安装自动生成的证书
+* 10.设置代理（GC代理不适用于HuTao-GS）(两种代理凭自己爱好选，DNS不行就用Fiddler)
+* 11.开始游玩 祝您玩的愉快
 
-**详细步骤请下载HuTao-GS 并打开 HuTao-GS/Docs/zh-cn/index.html 进行阅读！**
+**详细步骤请下载HuTao-GS 并打开 HuTao-GS/Docs/zh-cn/index.html 进行阅读参考！**
 
 ## 快速问题排除 ##
 
