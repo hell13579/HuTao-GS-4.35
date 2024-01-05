@@ -190,7 +190,7 @@ export default class Packet implements PacketInterface {
     part1.writeUInt32BE(data.length, 6)
 
     const ret = Buffer.concat([part1, head, data, magic2], part1.length + head.length + data.length + magic2.length)
-    xor(ret, keyBuffer)
+    //xor(ret, keyBuffer)
     return ret
   }
 
