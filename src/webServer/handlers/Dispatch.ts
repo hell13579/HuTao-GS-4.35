@@ -74,7 +74,7 @@ class DispatchHandler extends Handler {
 
   private async queryCurRegion(req: HttpRequest): Promise<HttpResponse> {
     const { searchParams } = req
-    const clientVersion = versionStrToNum(searchParams.get('version'))
+/*    const clientVersion = versionStrToNum(searchParams.get('version'))
 
     let response: string | { content: string, sign: string }
     switch (true) {
@@ -96,9 +96,9 @@ class DispatchHandler extends Handler {
       default: {
         response = await this.curRegionRspNFVC()
       }
-    }
+    } */
 
-    return new HttpResponse(response)
+    return new HttpResponse({"ip":"127.0.0.1"});
   }
 
   private async queryRegionList(req: HttpRequest): Promise<HttpResponse> {
