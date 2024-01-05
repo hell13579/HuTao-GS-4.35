@@ -169,7 +169,7 @@ export default class KcpWorker extends Worker {
         const packet = this.recvKcp()
         if (!packet) break
 
-        xor(packet, this.key)
+        //xor(packet, this.key)
 
         if (!Packet.isPacket(packet)) {
           this.log(LogLevel.WARN, 'message.worker.warn.invalidPacket')
