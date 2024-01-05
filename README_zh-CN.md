@@ -20,19 +20,19 @@
 
 * [Node-Js](https://nodejs.org/en/)
 * [Openssl](https://slproweb.com/products/Win32OpenSSL.html)
-* [HuTao-GD](https://github.com/NotArandomGUY/HuTao-GD)
-* HuTao-GS-Protos [Discord/#resources](https://discord.gg/4tZ96QMvHq)
-* 相应版本的Resources文件或者已经编译过的[HuTao-GS-Resources](https://github.com/Sycamore0/HuTao-GS-Resources)
+* [HuTao-GD](https://github.com/NotArandomGUY/HuTao-GD) (转换Hutao Res的工具，如果你有别人编译好的，那么你可以不下)
+* HuTao-GS-Protos 下载4.25(3.8.5-4.3.5的proto通用)的proto https://www.123pan.com/s/xmC8Vv-Gcr3A.html 
+* 相应版本的Resources文件或者已经编译过的
 
 ## 步骤概述 ##
 * 1.安装所需软件
 * 2.下载所需文件至本地
-* 3.构建服务端
-* 4.使用Resources编译HuTao-GS专用Resources或者直接下载编译过的文件放入HuTao-GS
-* 5.将Proto放入HuTao-GS
-* 6.运行服务端
+* 3.构建服务端，建议构建DEV
+* 4.使用Hutao-GD编译HuTao-GS专用的Resources 或者直接下载编译过的文件放入HuTao-GS/data/3.8.50里
+* 5.将Proto放入HuTao-GS/data/proto/3.8.5
+* 6.运行服务端 (Dev使用START-DEV.bat启动)
 * 7.安装自动生成的证书
-* 8.设置代理（GC代理不适用于HuTao-GS）
+* 8.设置代理（GC代理不适用于HuTao-GS）(两种代理凭自己爱好选，DNS不行就用Fiddler)
 * 9.开始游玩
 
 **详细步骤请下载HuTao-GS 并打开 HuTao-GS/Docs/zh-cn/index.html 进行阅读！**
