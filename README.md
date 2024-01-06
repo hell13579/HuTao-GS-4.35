@@ -30,7 +30,7 @@
 * 3.构建服务端，建议构建DEV
 * 4.先运行服务端生成文件
 * 5.使用Hutao-GD编译HuTao-GS专用的Resources 或者直接下载编译过的文件放入HuTao-GS/data/3.8.50里
-* 6.将Proto放入HuTao-GS/data/proto/3.8.5
+* 6.将Proto放入HuTao-GS/data/proto/3.8.5 proto下载地址:https://www.123pan.com/s/xmC8Vv-Ber3A.html
 * 7.从下载key解压到data/key里 https://www.123pan.com/s/xmC8Vv-Dcr3A.html
 * 8.运行服务端 (Dev使用START-DEV.bat启动)
 * 9.从SSL安装自动生成的证书
